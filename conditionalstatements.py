@@ -1,4 +1,4 @@
-'''#1st que
+#1st que
 num=int(input("enter a number:"))
 if num>0:
     print("the number is positive",num)
@@ -161,5 +161,4 @@ if letter in "aeiouAEIOU":
 else:
     print("its a consonant")
 
- '''
-#18que
+
