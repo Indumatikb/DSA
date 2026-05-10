@@ -1,4 +1,4 @@
-#1st que
+'''#1st que
 num=int(input("enter a number:"))
 if num>0:
     print("the number is positive",num)
@@ -161,4 +161,22 @@ if letter in "aeiouAEIOU":
 else:
     print("its a consonant")
 
+'''
+n = 5
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print(" ", end="")
 
+    for j in range(2 * i - 1):
+        print("*", end="")
+
+    print()
+
+for i in range(n - 1, 0, -1):
+    for j in range(n - i):
+        print(" ", end="")
+
+    for j in range(2 * i - 1):
+        print("*", end="")
+
+    print()
